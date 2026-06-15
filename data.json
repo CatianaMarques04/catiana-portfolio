@@ -1,0 +1,124 @@
+{
+  "matlab": [
+    {
+      "name": "MATLAB Omramp",
+      "file": "MATLAB Onramp.pdf",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\matlab_certificates\\20260614_215008_MATLAB Onramp.pdf",
+      "date": "14 Jun 2026"
+    },
+    {
+      "name": "Simulink Omramp",
+      "file": "Simulink Onramp.pdf",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\matlab_certificates\\20260614_215202_Simulink Onramp.pdf",
+      "date": "14 Jun 2026"
+    },
+    {
+      "name": "Calculations with vectrors and matrices",
+      "file": "Calculations with Vectors and Matrices.pdf",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\matlab_certificates\\20260614_215308_Calculations with Vectors and Matrices.pdf",
+      "date": "14 Jun 2026"
+    },
+    {
+      "name": "Core matlab skills",
+      "file": "Core MATLAB Skills.pdf",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\matlab_certificates\\20260614_215423_Core MATLAB Skills.pdf",
+      "date": "14 Jun 2026"
+    },
+    {
+      "name": "Make and manipulate matrices",
+      "file": "Make and Manipulate Matrices.pdf",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\matlab_certificates\\20260614_215527_Make and Manipulate Matrices.pdf",
+      "date": "14 Jun 2026"
+    },
+    {
+      "name": "Explore data with MATLAB plots",
+      "file": "Explore Data with MATLAB Plots.pdf",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\matlab_certificates\\20260614_215739_Explore Data with MATLAB Plots.pdf",
+      "date": "14 Jun 2026"
+    },
+    {
+      "name": "How MATLAB graphics work",
+      "file": "How MATLAB Graphics Work.pdf",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\matlab_certificates\\20260614_215850_How MATLAB Graphics Work.pdf",
+      "date": "14 Jun 2026"
+    },
+    {
+      "name": "Visualization in MATLAB",
+      "file": "Visualization in MATLAB.pdf",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\matlab_certificates\\20260614_220019_Visualization in MATLAB.pdf",
+      "date": "14 Jun 2026"
+    },
+    {
+      "name": "Plot beyond Second dimension",
+      "file": "Plot Beyond the Second Dimension.pdf",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\matlab_certificates\\20260614_220223_Plot Beyond the Second Dimension.pdf",
+      "date": "14 Jun 2026"
+    },
+    {
+      "name": "MATLAB Desktop Tools and Troubleshooting Scripts",
+      "file": "MATLAB Desktop Tools and Troubleshooting Scripts.pdf",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\matlab_certificates\\20260614_220336_MATLAB Desktop Tools and Troubleshooting Scripts.pdf",
+      "date": "14 Jun 2026"
+    }
+  ],
+  "blog": [
+    {
+      "title": "My Semester project contributions",
+      "desc": "I resolved production bugs in calculation modules and implemented firebase authentication. Focused on data integrity ,navigation stability, and secure user management.",
+      "file": "video final.mp4",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\blog_videos\\20260615_175117_video final.mp4",
+      "date": "15 Jun 2026"
+    }
+  ],
+  "github": [
+    {
+      "commit": "fix(blast): correct parameter names in results screen",
+      "impact": "",
+      "file": "commit 1.PNG",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\github_evidence\\20260615_171448_commit 1.PNG",
+      "date": "15 Jun 2026"
+    },
+    {
+      "commit": "fix(concrete): pass mix result as route param to results screen",
+      "impact": "",
+      "file": "commit 2.PNG",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\github_evidence\\20260615_171740_commit 2.PNG",
+      "date": "15 Jun 2026"
+    },
+    {
+      "commit": "feat(home): implement Firebase signOut and deleteUser actions",
+      "impact": "",
+      "file": "commit 3.PNG",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\github_evidence\\20260615_171906_commit 3.PNG",
+      "date": "15 Jun 2026"
+    },
+    {
+      "commit": "feat(auth): wire Firebase sendPasswordResetEmail to reset screen",
+      "impact": "",
+      "file": "commit 4.PNG",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\github_evidence\\20260615_172041_commit 4.PNG",
+      "date": "15 Jun 2026"
+    },
+    {
+      "commit": "feat(blast): add input validation to blast calculator form",
+      "impact": "",
+      "file": "commit 5.PNG",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\github_evidence\\20260615_172155_commit 5.PNG",
+      "date": "15 Jun 2026"
+    },
+    {
+      "commit": "eat(blast): add input validation to blast calculator form",
+      "impact": "",
+      "file": "commit 6.PNG",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\github_evidence\\20260615_172323_commit 6.PNG",
+      "date": "15 Jun 2026"
+    },
+    {
+      "commit": "fix(auth): use Firebase REST API for password reset compatibility",
+      "impact": "",
+      "file": "commit 7.PNG",
+      "path": "C:\\Users\\Utilizador\\Desktop\\catiana_portfolio\\uploads\\github_evidence\\20260615_172630_commit 7.PNG",
+      "date": "15 Jun 2026"
+    }
+  ]
+}
