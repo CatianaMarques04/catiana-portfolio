@@ -58,13 +58,13 @@ def main(page: ft.Page):
     def tag(t):
         return ft.Container(
             content=ft.Text(t, size=11, color=GOLD),
-            bgcolor=CARD2, border_radius=20, padding=ft.padding.symmetric(horizontal=12, vertical=5),
+            bgcolor=CARD2, border_radius=20, padding=ft.Padding(12,5,12,5),
             border=bdr(1, GOLD))
 
     def card(ctrl, padding=16):
         return ft.Container(
             content=ctrl, bgcolor=CARD, border_radius=12,
-            padding=padding, margin=ft.margin.only(bottom=12),
+            padding=padding, margin=12,
             border=bdr())
 
     def gbtn(lbl, fn, ico=None):
@@ -152,7 +152,7 @@ def main(page: ft.Page):
                 ], horizontal_alignment=ft.CrossAxisAlignment.CENTER),
                 bgcolor=CARD, border_radius=16,
                 border=bdr(1, GOLD),
-                margin=ft.margin.only(bottom=12)),
+                margin=12),
 
             # Stats row
             ft.Row([
@@ -240,13 +240,13 @@ def main(page: ft.Page):
                             content=ft.Text(f"Week {w}", size=11,
                                             color="#000000", weight=ft.FontWeight.BOLD),
                             bgcolor=GOLD, border_radius=6,
-                            padding=ft.padding.symmetric(horizontal=8, vertical=4),
+                            padding=ft.Padding(8,4,8,4),
                             width=70),
                         ft.Container(width=10),
                         ft.Text(task, size=12, color=TEXT, expand=True),
                     ], vertical_alignment=ft.CrossAxisAlignment.CENTER),
                     bgcolor=CARD2, border_radius=8, padding=10,
-                    margin=ft.margin.only(bottom=6), border=bdr())
+                    margin=6, border=bdr())
                   for w, task in [
                     (1,  "Project setup, repository creation and folder structure"),
                     (2,  "Developed Metallurgical cost input module"),
@@ -288,7 +288,7 @@ def main(page: ft.Page):
                     dbtn(lambda ev, i=idx: [db["matlab"].pop(i), save(db), rmx(), page.update()]),
                 ], vertical_alignment=ft.CrossAxisAlignment.CENTER, spacing=6),
                 bgcolor=CARD2, border_radius=10, padding=12,
-                border=bdr(), margin=ft.margin.only(bottom=8)))
+                border=bdr(), margin=8))
         c = len(db["matlab"])
         mcnt.value = f"{c} / 10 certificates uploaded"
         mcnt.color = GOLD if c >= 10 else SUBS
@@ -393,7 +393,7 @@ def main(page: ft.Page):
                         bgcolor=CARD2, border_radius=6, padding=8),
                 ]),
                 bgcolor=CARD, border_radius=12, padding=14,
-                border=bdr(1, GOLD), margin=ft.margin.only(bottom=10)))
+                border=bdr(1, GOLD), margin=10))
         page.update()
 
     def on_bp(e):
@@ -516,7 +516,7 @@ def main(page: ft.Page):
                     ]),
                 ]),
                 bgcolor=CARD, border_radius=12, padding=14,
-                border=bdr(1, GOLD), margin=ft.margin.only(bottom=10)))
+                border=bdr(1, GOLD), margin=10))
         page.update()
 
     def on_gp(e):
