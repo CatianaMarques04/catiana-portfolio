@@ -166,7 +166,7 @@ def main(page: ft.Page):
             ft.Container(height=4),
             card(ft.Column([
                 ft.Row([
-                    ft.Icon(ft.icons.PERSON_OUTLINE, color=GOLD, size=20),
+                    ft.Icon(ft.icons.PERSON, color=GOLD, size=20),
                     ft.Container(width=8),
                     h("About Me"),
                 ]),
@@ -184,7 +184,7 @@ def main(page: ft.Page):
 
             card(ft.Column([
                 ft.Row([
-                    ft.Icon(ft.icons.SCHOOL_OUTLINED, color=GOLD, size=20),
+                    ft.Icon(ft.icons.SCHOOL, color=GOLD, size=20),
                     ft.Container(width=8),
                     h("Education"),
                 ]),
@@ -368,7 +368,7 @@ def main(page: ft.Page):
                 content=ft.Column([
                     ft.Row([
                         ft.Container(
-                            content=ft.Icon(ft.icons.PLAY_CIRCLE_FILL,
+                            content=ft.Icon(ft.icons.PLAY_CIRCLE,
                                             color="#000000", size=18),
                             bgcolor=GOLD, border_radius=8, padding=6),
                         ft.Container(width=8),
@@ -510,7 +510,7 @@ def main(page: ft.Page):
                         bgcolor=CARD2, border_radius=8, padding=12, border=bdr()),
                     ft.Container(height=6),
                     ft.Row([
-                        ft.Icon(ft.icons.IMAGE_OUTLINED, color=SUBS, size=14),
+                        ft.Icon(ft.icons.IMAGE, color=SUBS, size=14),
                         ft.Container(width=4),
                         ft.Text(e["file"], size=11, color=SUBS, italic=True),
                     ]),
